@@ -6,7 +6,7 @@ import SearchButton from './SearchButton';
 
 const Search = () => {
     return (
-        <div className="search d-flex">
+        <div className="search d-flex w-auto">
             <SearchBar />
             <LocationFilter />
             <FulltimeFilter />
