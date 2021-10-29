@@ -105,7 +105,7 @@ nav {
 
 .job-cards {
     margin: 8rem auto 0 auto;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
     .job-card {
