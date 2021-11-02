@@ -1,10 +1,16 @@
 import React from 'react'
 
-const FulltimeFilter = () => {
+const FulltimeFilter = ({ setFulltime, fulltime }) => {
     return (
         <div className="fulltime-filter search-component h-100 d-flex">
             <label>
-                <input type="checkbox" />
+                <input 
+                  type="checkbox"
+                  checked={fulltime}
+                  onChange={() => {
+                    setFulltime(!fulltime)
+                }}
+                />
                 Full Time Only
             </label>
         </div>
